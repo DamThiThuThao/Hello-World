@@ -1,0 +1,254 @@
+/*header css*/
+body{
+  background: #333;
+}
+header .container{
+  background: #222222;
+}
+.find,.user{
+  margin: 20px 0;
+
+}
+.user{
+  padding-right: 50px;
+}
+
+.navigator{
+  padding-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+footer {
+  height: 50px;
+  background: green;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+}
+
+.find-element, .filter-element{
+  width: 50%;
+  float: left;
+}
+
+.dropdown .item{
+  padding: 3px 12px;
+}
+.col-md-10 p {
+  float: left;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.find-element input{
+  width: 95%;
+  float: left;
+  height: 35px;
+  outline: none;
+  border: 1px solid #c0c0c0;
+  background-color: white;
+  border-radius: 10px;
+  color: #9f9f9f;
+  display: inline-block;
+  text-decoration: none;
+  float: left;
+}
+.find-element button{
+  border: none;
+  float: left;
+  border-radius: 15px;
+  margin-left: -40px;
+  width: 35px;
+  height: 35px;
+  background: url(../images/searchicon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.filter-element select{
+  height: 35px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+  float: left;
+  margin-left: 50px;
+}
+.user{
+
+}
+.user button{
+  margin: 0 15px;
+  float: right;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  font-weight: bold;
+}
+.direct{
+  margin-top: 30px;
+}
+.direct ul{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.direct ul li{
+  display: block;
+  width: 20%;
+  background: #00b2bf;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+  border: 1px solid #fff;
+}
+.direct ul li:hover{
+  background: #7aa6f6;
+}
+.direct ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.direct-manager{
+  color: #fff;
+}
+.direct-manager ul{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.direct-manager ul li{
+  display: block;
+  width: 33.33%;
+  background: #00b2bf;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+  border: 1px solid #fff;
+}
+.direct-manager ul li:hover{
+  background: #7aa6f6;
+}
+.direct-manager ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+/*end header css*/
+
+/*comic css*/
+
+.location,.main{
+  background: #fff;
+  padding-bottom: 20px;
+}
+.location ul{
+
+}
+.location a{
+  color: #111;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.location ul span{
+  float: left;
+  padding: 10px;
+}
+.location ul li{
+  display: block;
+  float: left;
+  padding: 10px 18px;
+  background: #ccc;
+  border: none;
+  margin: 0 3px;
+  border-radius: 20px;
+}
+.location ul li:hover{
+  background: #e5dbdb;
+}
+.view-comics, .border-charts{
+  margin-top: 5px;
+
+}
+
+.comic-border{
+  padding: 0;
+}
+.comic{
+  margin: 2px;
+  padding: 10px;
+  border: 1px solid;
+}
+.comic h3{
+  padding: 5px;
+  border-bottom: 1px solid;
+}
+.comic h3 a{
+  color: #111;
+  text-decoration: none;
+}
+.comic h3 a:hover{
+  color: #ccc;
+}
+.comic p{
+
+}
+
+.border-charts{
+  border: 1px solid #ccc;
+  border-right: none;
+  height: 500px;
+}
+.border-charts h3{
+  padding: 5px;
+  text-align: center;
+  font-size: 22px;
+}
+.border-charts .view-all{
+  text-align: center;
+  margin: 10px 0;
+}
+.border-charts .view-all:hover{
+  background: #ccc;
+}
+.border-charts .view-all a{
+  text-decoration: none;
+  color: #111;
+  font-size: 22px;
+  font-weight: bold;
+}
+.charts{
+  background: #3a3939;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #fff;
+}
+.charts a{
+  color: #fff;
+  font-weight: bold;
+}
+.charts-element{
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+/*end comic css*/
+
+.author{
+  border: 1px solid;
+  margin: 20px 0;
+}
+.summary{
+  border: 1px solid;
+  margin: 20px 0;
+}
+.search-view-element .col-md-5 img{
+  border: 1px solid;
+}
+.heart {
+  color: red;
+  font-size: 25px;
+  float: right;
+  margin-right: 20px;
+}
